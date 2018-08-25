@@ -18,4 +18,8 @@ class User
   def last_name(last_name)
     @last_name
   end
+
+  def learn(knowledge_string)
+    @knowledge << self
+  end
 end
