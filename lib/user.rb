@@ -19,6 +19,6 @@ class User
   end
 
   def learn(knowledge_string)
-    @knowledge << self
+    @knowledge << knowledge_string
   end
 end
