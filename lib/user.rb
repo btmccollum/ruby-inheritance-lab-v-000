@@ -17,6 +17,10 @@ class User
     @knowledge << knowledge_string
   end
 
+  def teach
+    @knowledge
+  end
+
   def knowledge
     @knowledge
   end
