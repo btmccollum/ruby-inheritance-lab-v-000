@@ -18,7 +18,7 @@ class User
   end
 
   def teach
-    self::KNOWLEDGE
+    @knowledge
   end
 
   def knowledge
