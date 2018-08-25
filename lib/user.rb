@@ -18,7 +18,7 @@ class User
     @knowledge << knowledge_string
   end
 
-  def teach(knowledge_string)
+  def teach
     binding.pry
     @knowledge << knowledge_string
   end
