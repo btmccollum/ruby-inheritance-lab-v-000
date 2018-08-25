@@ -24,3 +24,4 @@ important_knowledge = avi.teach
 steve.learn(important_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+puts "All together Steve has learned many things from Avi! Such as: #{steve.knowledge.join(",")}"
