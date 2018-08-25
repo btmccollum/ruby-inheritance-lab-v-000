@@ -20,7 +20,7 @@ class User
 
   def teach
     binding.pry
-    @knowledge << knowledge_string
+    Teacher::KNOWLEDGE.sample
   end
 
   def knowledge
