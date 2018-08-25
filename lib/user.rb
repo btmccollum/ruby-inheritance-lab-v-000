@@ -10,7 +10,6 @@ class User
     @knowledge = []
   end
 
-
   def first_name(first_name)
     @first_name = first_name
   end
