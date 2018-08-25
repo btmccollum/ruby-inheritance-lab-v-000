@@ -29,4 +29,4 @@ important_knowledge = avi.teach
 steve.learn(important_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
-puts "Brad has learned about the following: #{brad.knowledge.first}!"
+puts "Brad has learned about the following: '#{brad.knowledge.first}'!"
