@@ -18,6 +18,7 @@ class User
   end
 
   def teach
+    binding.pry
     @knowledge
   end
 
