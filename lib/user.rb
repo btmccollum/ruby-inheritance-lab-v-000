@@ -19,7 +19,6 @@ class User
   end
 
   def teach
-    binding.pry
     Teacher::KNOWLEDGE.sample
   end
 
