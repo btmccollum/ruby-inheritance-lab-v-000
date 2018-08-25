@@ -18,7 +18,7 @@ class User
   end
 
   def teach
-    @knowledge
+    @knowledge << self
   end
 
   def knowledge
