@@ -18,7 +18,7 @@ class User
   end
 
   def teach
-    KNOWLDEGE
+    KNOWLEDGE
   end
 
   def knowledge
