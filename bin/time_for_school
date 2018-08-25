@@ -20,5 +20,7 @@ jim.last_name = "Bob"
 jim.learn(some_knowledge)
 
 steve.learn(some_knowledge)
+important_knowledge = avi.teach
+steve.learn(important_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
