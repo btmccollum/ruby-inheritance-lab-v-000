@@ -18,10 +18,10 @@ class User
   end
 
   def teach
-    @knowledge << self
+    KNOWLDEGE
   end
 
   def knowledge
-    KNOWLEDGE
+    @knowledge
   end
 end
